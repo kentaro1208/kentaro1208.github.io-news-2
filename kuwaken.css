@@ -1,0 +1,296 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  max-width:100%;
+}
+
+.contents {
+  width: 100％;
+
+}
+
+.header{
+  border-bottom: 1px solid black;
+  width: 75%;
+  margin: 0px auto;
+}
+
+.header img{
+  width: 80px;
+}
+
+
+.header-logo{
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: 50px;
+}
+
+.header-logo i {
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#3cb371;
+  color: white;
+  padding: 9px;
+  border-radius:6px;
+}
+
+.header ul{
+   display:flex;
+   justify-content:space-around;
+
+}
+
+.header li{
+  font-size: 13px;
+  list-style: none;
+
+
+}
+
+ul.dropdown a{
+  text-decoration: none;
+  padding: 0px 5px;
+  color: black;
+}
+
+ul.dropdown span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.top-picture{
+  background-image: url("./img/sinrin.jpg");
+  width:100%;
+  height: 400px;
+  background-size: cover;
+  opacity:0;
+  transition-duration:2s;
+}
+
+.top-picture:hover{
+  opacity: 0.6;
+}
+.top-text{
+  position: relative;
+  bottom:30px;
+  width:60%;
+  margin: 0px auto;
+  padding-bottom: 50px;
+  border: 2px solid black;
+
+}
+
+.top-text h2{
+  background-color:black;
+  color:white;
+  display:inline-block;
+}
+
+.top-text p{
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.event{
+  font-size:20px;
+  text-align:center;
+  letter-spacing: 7px;
+  line-height: 3;
+}
+
+.btn{
+
+  text-decoration:none;
+  color: white;
+}
+
+.green {
+  padding: 10px 20px;
+  background-color: #3cb371;
+}
+
+
+.description h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.details {
+  display:flex;
+  margin-top:20px;
+  background-color:white;
+}
+
+.detail img{
+ height: 150px;
+}
+
+.detail {
+  border: 1px solid black;
+  font-size: 20px;
+  text-align:center;
+  flex-basis:50%;
+}
+
+
+.chapter{
+  background-image:
+   linear-gradient(
+     transparent 95%,
+     rgba(0, 0, 0, 0.05) 5%
+   ),
+   linear-gradient(
+     90deg,
+     transparent 95%,
+     rgba(0, 0, 0, 0.05) 5%
+   );
+ background-size: 50px 50px;
+ background-repeat: repeat;
+  margin-top: 40px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.chapter img{
+
+  height:450px;
+  width:auto;
+}
+
+.red{
+  background-color:black;
+  margin: 0 10px;
+  transition-duration:2s;
+}
+
+.red:hover{
+  background-color: red;
+  color: black;
+}
+
+.chapter span,.circlebox span,.diagonal span{
+  background-color:black;
+  color: white;
+
+}
+
+.chapter h2 *,.circlebox h2 *,.diagonal h2 *{
+  padding:15px 15px;
+  margin-left:30px;
+
+}
+
+.chapter h2,.circlebox h2,.diagonal h2{
+  align-self: center;
+}
+
+.circlebox{
+  background-image:
+  radial-gradient(
+    rgba(220,220,220, 0.5) 15%,transparent 20%);
+ background-size: 30px 30px;
+ background-repeat: repeat;
+ text-align: center;
+ margin-top: 20px;
+ padding-top:30px;
+}
+
+.wide{
+  width:80%;
+}
+
+.big-title {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  margin: 20px auto 0px auto
+}
+
+.mini-title {
+  background-color:white;
+  border: 3px solid black;
+  margin: 10px 10px;
+}
+
+.news {
+    flex-basis:30%;
+}
+
+.tech {
+  flex-basis: 15%;
+}
+
+.tech p{
+  font-size:18px;
+}
+
+.diagonal{
+  margin-top:80px;
+  background: linear-gradient(
+    -45deg,
+    #fff 25%, #f5f5f5 25%,
+    #f5f5f5 50%, #fff 50%,
+    #fff 75%, #f5f5f5 75%,
+    #f5f5f5
+  );
+  background-size: 20px 20px;
+  padding:40px 0px;
+  text-align: center;
+}
+
+
+.footer{
+  margin-top: 20px;
+  margin-left: 30px;
+  padding:20px;
+  border-top: 1px solid black;
+}
+
+.footer * {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+@media (max-width:670px){
+  .header img{
+    display: none;
+  }
+  .header ul{
+    display: inline;
+    text-align: center;
+  }
+
+  .header-logo {
+    display:inline-block;
+  }
+
+  .header-logo span{
+    display:none;
+  }
+　.chapter h2{
+  writing-mode: vertical-rl;
+}
+ .chapter img {
+   width: 50%;
+   height: 100px;
+ }
+
+ .chapter h2 {
+   font-size: 15px;
+   margin-left: -40px;
+ }
+ .details{
+   display: inline-block;
+   width: 80%;
+ }
+ .mini-title {
+   flex-basis: 35%;
+ }
+
+
+}
