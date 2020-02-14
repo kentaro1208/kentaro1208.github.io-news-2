@@ -1,0 +1,218 @@
+
+
+.header{
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.header img{
+  width: 80px;
+
+
+}
+
+
+.header-right{
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: 50px;
+}
+
+.header-right i {
+  font-size: 18px;
+  margin-left: 20px 0px 20px 30px;
+  background-color:#3cb371;
+  color: white;
+  padding: 9px;
+  border-radius:6px;
+}
+
+.header ul{
+   display:flex;
+   justify-content:space-around;
+
+}
+
+.header li{
+  font-size: 13px;
+  list-style: none;
+
+
+}
+
+ul.dropdown a{
+  text-decoration: none;
+  padding: 0px 5px;
+  color: black;
+}
+
+ul.dropdown span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.contents h2{
+  color: #ff4500;
+
+
+}
+
+.contents  {
+  width: 100%;
+  text-align: center;
+}
+
+
+.seminar-Infomation{
+  display:flex;
+  margin: 0 50px;
+  border: 1px solid black;
+
+}
+
+.seminar-Infomation h3{
+  background-color: black;
+  color: white;
+  padding:30px 0;
+  margin: 0;
+  font-size: 30px;
+
+}
+
+
+.seminar-Infomation p{
+  margin-left: 20px;
+  padding: 30px 0;
+}
+
+.seminar-details{
+  display:flex;
+  margin-top: 50px;
+  justify-content:space-around;
+  padding: 50px 0px;
+}
+
+.marketing-Seminar h3 {
+  font-size: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  color: #ff69b4;
+}
+
+.marketing-Seminar h4 {
+  font-size: 18px;
+  border-bottom: 4px dotted #ff69b4;
+}
+.marketing-Seminar p{
+  word-break: break-all;;
+  font-size: 18px;
+}
+
+.marketing-Seminar img {
+  width: 80%;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.marketing-Seminar{
+  flex-basis: 30%;
+}
+
+.technology-Seminar {
+  flex-basis: 60%;
+
+}
+
+.technology-details{
+  display:flex;
+  justify-content: space-around;
+}
+
+.technology-Seminar h3 {
+  font-size: 20px;
+  text-align:center;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom:15px;
+  color:#7fffd4;
+}
+
+
+.technology-detail h4 {
+  font-size: 18px;
+  border-bottom: 4px dotted #7fffd4;
+}
+.technology-detail p{
+  word-break: break-all;;
+  font-size: 18px;
+}
+
+.technology-detail img {
+  width: 80%;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.technology-detail{
+  flex-basis: 50%;
+  margin-right: 20px;
+}
+
+
+.footer{
+  margin-top: 20px;
+  padding:20px;
+  border-top: 1px solid black;
+}
+
+.footer * {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+@media (max-width:670px){
+  .header img{
+    display: none;
+  }
+  .header ul{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .header-right i span{
+    display: none;
+  }
+
+  .header-right i{
+    margin: 0 auto;
+  }
+  .header li{
+    margin-bottom: 10px;
+  }
+  .contents{
+    text-align: center;
+  }
+  .seminar-details{
+    display: inline-block;
+  }
+
+  .marketing-Seminar{
+      margin-bottom: 50px;
+      border-bottom: 1px solid black;
+  }
+
+  .technology-details{
+    display: inline-block;
+  }
+
+  .technology-detail{
+    margin:25px 0;
+    border-bottom: 1px solid black;
+
+  }
+  }
