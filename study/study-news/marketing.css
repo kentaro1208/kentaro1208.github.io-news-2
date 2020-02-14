@@ -1,0 +1,120 @@
+.contents {
+  width: 100％;
+  padding-bottom: 50px;
+}
+
+.header{
+  border-bottom: 1px solid black;
+  width: 75%;
+  margin: 0px auto;
+}
+
+.header img{
+  width: 80px;
+}
+
+
+.header-right{
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: 50px;
+}
+
+.header-right i {
+  font-size: 18px;
+  margin-left: 20px 0px 20px 30px;
+  background-color:#3cb371;
+  color: white;
+  padding: 9px;
+  border-radius:6px;
+}
+
+.header ul{
+   display:flex;
+   justify-content:space-around;
+
+}
+
+.header li{
+  font-size: 13px;
+  list-style: none;
+
+
+}
+
+ul.dropdown a{
+  text-decoration: none;
+  padding: 0px 5px;
+  color: black;
+}
+
+ul.dropdown span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+li.ddstudy a{
+  color: red;
+}
+
+.machine-news{
+  margin-top:130px;
+}
+
+.contents{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-bottom:50px;
+  border-bottom: 2px dotted rgba(0,0,0,0.3);
+}
+.machine-pic{
+  flex-basis: 10%;
+}
+
+.machine-pic img{
+  width: 400px;
+  height: auto;
+}
+
+.machine-text{
+  flex-basis: 40%;
+}
+
+
+.footer{
+  margin-top: 20px;
+  margin-left: 30px;
+  padding:20px;
+  border-top: 1px solid black;
+}
+
+.footer * {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+@media (max-width:670px){
+  .header img{
+    display: none;
+  }
+  .header ul{
+    display: inline-block;
+    margin:5px 20%;
+  }
+
+  .header-right i span{
+    display: none;
+  }
+
+  .header-right i{
+    margin: 0 auto;
+  }
+
+  .machine-text {
+    flex-basis: 100%;
+  }
+
+  }
