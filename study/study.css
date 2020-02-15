@@ -75,6 +75,7 @@ li.ddstudy  a{
   flex-wrap: wrap;
   margin: 10px 0px 0px 15%;
   align-items:baseline;
+  font-size:0px;
 }
 
 .study-title {
@@ -107,6 +108,7 @@ li.ddstudy  a{
   display: flex;
   justify-content:space-between;
   margin: 0 auto;
+  font-size:20px;
 }
 
 
