@@ -70,26 +70,26 @@ li.ddstudy  a{
   color: red;
 }
 
-.sport-titles {
+.study-titles {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0px 0px 15%;
   align-items:baseline;
 }
 
-.sport-title {
+.study-title {
   flex-basis: 40%;
   border: 1px solid black;
   margin: 15px 15px;
 }
 
-.sport-title img {
+.study-title img {
   width: 100%;
   height: 200px;
   border-bottom: 1px solid black;
 }
 
-.sport-title a {
+.study-title a {
   font-size: 25px;
   border-left: 1px solid black;
   text-decoration: none;
@@ -98,12 +98,12 @@ li.ddstudy  a{
   transition-duration: 2s;
 }
 
-.sport-title a:hover{
+.study-title a:hover{
   background-color: red;
   color: black;
 }
 
-.sport-title h3 {
+.study-title h3 {
   display: flex;
   justify-content:space-between;
   margin: 0 auto;
@@ -144,7 +144,7 @@ li.ddstudy  a{
     display:inline-block;
   }
 
-  .sport-title{
+  .study-title{
     flex-basis: 80%;
   }
 }
