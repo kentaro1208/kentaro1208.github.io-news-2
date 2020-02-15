@@ -81,6 +81,7 @@ li.ddsport a{
   flex-basis: 40%;
   border: 1px solid black;
   margin: 15px 15px;
+  font-size:0px;
 }
 
 .sport-title img {
@@ -109,6 +110,7 @@ li.ddsport a{
   justify-content:space-between;
   margin: 0 auto;
   align-items:stretch;
+  font-size:20px;
 }
 
 
